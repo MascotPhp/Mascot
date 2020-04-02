@@ -62,7 +62,7 @@ Mascot is licensed under the MIT license.
 .. _Symfony components: https://symfony.com
 .. _Composer:           https://getcomposer.org
 .. _PHPUnit:            https://phpunit.de
-.. _mascot.zip:          https://mascot.rocks/download
-.. _documentation:      https://mascot.rocks/documentation
+.. _mascot.zip:         https://github.com/MascotPhp/Mascot/archive/master.zip
+.. _documentation:      https://mascot.rocks/
 .. _mascot tag:          https://stackoverflow.com/questions/tagged/mascot
 .. _open an issue:      https://github.com/mascotphp/Mascot/issues/new
