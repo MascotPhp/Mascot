@@ -1,11 +1,8 @@
-Silex, a simple Web Framework
+Mascot, a simple Web Framework
 =============================
 
-**WARNING**: Silex is in maintenance mode only. Ends of life is set to June
-2018. Read more on `Symfony's blog <https://symfony.com/blog/the-end-of-silex>`_.
-
-Silex is a PHP micro-framework to develop websites based on `Symfony
-components`_:
+Mascot is a fork of Silex, the PHP micro-framework to develop websites
+based on `Symfony components`_:
 
 .. code-block:: php
 
@@ -13,7 +10,7 @@ components`_:
 
     require_once __DIR__.'/../vendor/autoload.php';
 
-    $app = new Silex\Application();
+    $app = new Mascot\Application();
 
     $app->get('/hello/{name}', function ($name) use ($app) {
       return 'Hello '.$app->escape($name);
@@ -21,18 +18,18 @@ components`_:
 
     $app->run();
 
-Silex works with PHP 7.1.3 or later.
+Mascot works with PHP 7.2 or later.
 
 Installation
 ------------
 
-The recommended way to install Silex is through `Composer`_:
+The recommended way to install Mascot is through `Composer`_:
 
 .. code-block:: bash
 
-    composer require silex/silex "~2.0"
+    composer require mascot/mascot
 
-Alternatively, you can download the `silex.zip`_ file and extract it.
+Alternatively, you can download the `mascot.zip`_ file and extract it.
 
 More Information
 ----------------
@@ -53,19 +50,19 @@ To run the test suite, you need `Composer`_ and `PHPUnit`_:
 Support
 -------
 
-If you have a configuration problem use the `silex tag`_ on StackOverflow to ask a question.
+If you have a configuration problem use the `mascot tag`_ on StackOverflow to ask a question.
 
-If you think there is an actual problem in Silex, please `open an issue`_ if there isn't one already created.
+If you think there is an actual problem in Mascot, please `open an issue`_ if there isn't one already created.
 
 License
 -------
 
-Silex is licensed under the MIT license.
+Mascot is licensed under the MIT license.
 
 .. _Symfony components: https://symfony.com
 .. _Composer:           https://getcomposer.org
 .. _PHPUnit:            https://phpunit.de
-.. _silex.zip:          https://silex.symfony.com/download
-.. _documentation:      https://silex.symfony.com/documentation
-.. _silex tag:          https://stackoverflow.com/questions/tagged/silex
-.. _open an issue:      https://github.com/silexphp/Silex/issues/new
+.. _mascot.zip:         https://github.com/MascotPhp/Mascot/archive/master.zip
+.. _documentation:      https://mascot.rocks/
+.. _mascot tag:          https://stackoverflow.com/questions/tagged/mascot
+.. _open an issue:      https://github.com/mascotphp/Mascot/issues/new

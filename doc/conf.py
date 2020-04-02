@@ -8,7 +8,7 @@ extensions = []
 master_doc = 'index'
 highlight_language = 'php'
 
-project = u'Silex'
+project = u'Mascot'
 copyright = u'2010 Fabien Potencier'
 
 version = '0'

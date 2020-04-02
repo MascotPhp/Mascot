@@ -25,8 +25,8 @@ Registering
 Before registering this service provider, you must register the
 *SecurityServiceProvider*::
 
-    $app->register(new Silex\Provider\SecurityServiceProvider());
-    $app->register(new Silex\Provider\RememberMeServiceProvider());
+    $app->register(new Mascot\Provider\SecurityServiceProvider());
+    $app->register(new Mascot\Provider\RememberMeServiceProvider());
 
     $app['security.firewalls'] = array(
         'my-firewall' => array(
