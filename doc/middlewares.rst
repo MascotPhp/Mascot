@@ -1,7 +1,7 @@
 Middleware
 ==========
 
-Silex allows you to run code, that changes the default Silex behavior, at
+Mascot allows you to run code, that changes the default Mascot behavior, at
 different stages during the handling of a request through *middleware*:
 
 * *Application middleware* is triggered independently of the current handled

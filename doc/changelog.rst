@@ -80,7 +80,7 @@ Changelog
 2.0.1 (2016-05-27)
 ------------------
 
-* fixed the silex form extension registration to allow overriding default ones
+* fixed the mascot form extension registration to allow overriding default ones
 * removed support for the obsolete Locale Symfony component (uses the Intl one now)
 * added support for Symfony 3.1
 
@@ -107,12 +107,12 @@ Changelog
 * Updated Pimple to 3.0
 * Updated session listeners to extends HttpKernel ones
 * [BC BREAK] Locale management has been moved to LocaleServiceProvider which must be registered
-  if you want Silex to manage your locale (must also be registered for the translation service provider)
-* [BC BREAK] Provider interfaces moved to Silex\Api namespace, published as
+  if you want Mascot to manage your locale (must also be registered for the translation service provider)
+* [BC BREAK] Provider interfaces moved to Mascot\Api namespace, published as
   separate package via subtree split
 * [BC BREAK] ServiceProviderInterface split in to EventListenerProviderInterface
   and BootableProviderInterface
-* [BC BREAK] Service Provider support files moved under Silex\Provider
+* [BC BREAK] Service Provider support files moved under Mascot\Provider
   namespace, allowing publishing as separate package via sub-tree split
 * ``monolog.exception.logger_filter`` option added to Monolog service provider
 * [BC BREAK] ``$app['request']`` service removed, use ``$app['request_stack']`` instead
@@ -162,7 +162,7 @@ Changelog
 * added support for the OPTIONS HTTP method
 * added caching for the Translator provider
 * deprecated `$app['exception_handler']->disable()` in favor of `unset($app['exception_handler'])`
-* made Silex compatible with Symfony 2.7 an 2.8 (and keep compatibility with Symfony 2.3, 2.5, and 2.6)
+* made Mascot compatible with Symfony 2.7 an 2.8 (and keep compatibility with Symfony 2.3, 2.5, and 2.6)
 * removed deprecated TwigCoreExtension class (register the new HttpFragmentServiceProvider instead)
 * bumped minimum version of PHP to 5.3.9
 
@@ -175,7 +175,7 @@ Changelog
 ------------------
 
 * fixed the exception message when mounting a collection that doesn't return a ControllerCollection
-* fixed Symfony dependencies (Silex 1.2 is not compatible with Symfony 2.7)
+* fixed Symfony dependencies (Mascot 1.2 is not compatible with Symfony 2.7)
 
 1.2.3 (2015-01-20)
 ------------------
@@ -244,7 +244,7 @@ Changelog
 1.0.1 (2013-07-04)
 ------------------
 
-* Fixed RedirectableUrlMatcher::redirect() when Silex is configured to use a logger
+* Fixed RedirectableUrlMatcher::redirect() when Mascot is configured to use a logger
 * Make ``DoctrineServiceProvider`` multi-db support lazy.
 
 1.0.0 (2013-05-03)
@@ -392,8 +392,8 @@ Changelog
 
 * **2011-09-22**: ``ExtensionInterface`` has been renamed to
   ``ServiceProviderInterface``. All built-in extensions have been renamed
-  accordingly (for instance, ``Silex\Extension\TwigExtension`` has been
-  renamed to ``Silex\Provider\TwigServiceProvider``).
+  accordingly (for instance, ``Mascot\Extension\TwigExtension`` has been
+  renamed to ``Mascot\Provider\TwigServiceProvider``).
 
 * **2011-09-22**: The way reusable applications work has changed. The
   ``mount()`` method now takes an instance of ``ControllerCollection`` instead

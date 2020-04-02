@@ -1,10 +1,10 @@
 Contributing
 ============
 
-We are open to contributions to the Silex code. If you find a bug or want to
+We are open to contributions to the Mascot code. If you find a bug or want to
 contribute a provider, just follow these steps:
 
-* Fork `the Silex repository <https://github.com/silexphp/Silex>`_;
+* Fork `the Mascot repository <https://github.com/mascotphp/Mascot>`_;
 
 * Make your feature addition or bug fix;
 

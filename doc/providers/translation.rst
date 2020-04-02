@@ -40,8 +40,8 @@ Registering
 
 .. code-block:: php
 
-    $app->register(new Silex\Provider\LocaleServiceProvider());
-    $app->register(new Silex\Provider\TranslationServiceProvider(), array(
+    $app->register(new Mascot\Provider\LocaleServiceProvider());
+    $app->register(new Mascot\Provider\TranslationServiceProvider(), array(
         'locale_fallbacks' => array('en'),
     ));
 
@@ -114,7 +114,7 @@ When translations are stored in a file, you can load them as follows::
 Traits
 ------
 
-``Silex\Application\TranslationTrait`` adds the following shortcuts:
+``Mascot\Application\TranslationTrait`` adds the following shortcuts:
 
 * **trans**: Translates the given message.
 
