@@ -48,7 +48,7 @@
         "symfony/twig-bridge": "^4.4",
         "symfony/validator": "^4.4",
         "symfony/var-dumper": "^4.4",
-        "twig/twig": "^2.0",
+        "twig/twig": "^3.0",
         "doctrine/dbal": "^2.2",
         "monolog/monolog": "^1.4.1",
         "symfony/web-link": "^4.4"
